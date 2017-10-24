@@ -14,8 +14,8 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -161,8 +161,8 @@
 <text x="2.720071875" y="35.5336375" size="1.016" layer="21" rot="SR270" align="center">v0.2.0</text>
 <dimension x1="24.00611875" y1="32.03465" x2="23.95785625" y2="0.820390625" x3="39.385971875" y3="16.4037" textsize="1.778" layer="48"/>
 <dimension x1="0.380475" y1="0.79325" x2="25.8120625" y2="0.80006875" x3="13.098325" y3="-6.87395" textsize="1.778" layer="48"/>
-<text x="3.95208125" y="27.7960375" size="1.016" layer="22" rot="MR270">12.2017</text>
-<text x="6.260059375" y="30.2414" size="1.27" layer="22" rot="MR270">Mihai Galos</text>
+<text x="2.91068125" y="26.7292375" size="1.016" layer="22" rot="MR270">12.2017</text>
+<text x="5.091659375" y="28.9714" size="1.27" layer="22" rot="MR270">Mihai Galos</text>
 <rectangle x1="22.95" y1="0.84" x2="25.24" y2="2.2" layer="29"/>
 <rectangle x1="0.8923" y1="22.8563" x2="1.3749" y2="22.8817" layer="21" rot="R90"/>
 <rectangle x1="0.6764" y1="22.8436" x2="1.6416" y2="22.869" layer="21" rot="R90"/>
@@ -4071,8 +4071,8 @@
 <rectangle x1="16.5227" y1="5.4483" x2="17.2847" y2="5.4737" layer="22" rot="R180"/>
 <rectangle x1="16.5481" y1="5.4737" x2="17.2593" y2="5.4991" layer="22" rot="R180"/>
 <text x="0" y="-0.127" size="0.0508" layer="200" font="vector">C:/Users/Mihai/Downloads/stopwatch.bmp</text>
-<text x="15.113" y="7.7724" size="1.4224" layer="22" rot="MR0">&lt;5s</text>
-<text x="15.24" y="2.6416" size="1.4224" layer="22" rot="MR0">&gt;5s</text>
+<text x="14.7574" y="7.747" size="1.016" layer="22" rot="MR0">&lt;5s</text>
+<text x="14.732" y="2.6924" size="1.016" layer="22" rot="MR0">&gt;5s</text>
 </plain>
 <libraries>
 <library name="pinhead">
