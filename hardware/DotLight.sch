@@ -13217,6 +13217,7 @@ Source: RS Component / Phycomp</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7)PA7"/>
 <wire x1="81.28" y1="208.28" x2="83.82" y2="208.28" width="0.1524" layer="91"/>
+<label x="83.82" y="208.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GREEN" class="0">
@@ -13229,6 +13230,18 @@ Source: RS Component / Phycomp</description>
 <pinref part="U$1" gate="G$1" pin="(PCINT9/XTAL2)PB1"/>
 <wire x1="81.28" y1="215.9" x2="83.82" y2="215.9" width="0.1524" layer="91"/>
 <label x="83.82" y="215.9" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RED" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="(PCINT8/XTAL1/CLKI)PB0"/>
+<wire x1="81.28" y1="213.36" x2="83.82" y2="213.36" width="0.1524" layer="91"/>
+<label x="83.82" y="213.36" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R8" gate="A" pin="1"/>
+<wire x1="160.02" y1="251.46" x2="154.94" y2="251.46" width="0.1524" layer="91"/>
+<label x="154.94" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
