@@ -17,7 +17,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -4073,6 +4073,7 @@
 <text x="0" y="-0.127" size="0.0508" layer="200" font="vector">C:/Users/Mihai/Downloads/stopwatch.bmp</text>
 <text x="14.7574" y="7.747" size="1.016" layer="22" rot="MR0">&lt;5s</text>
 <text x="14.732" y="2.6924" size="1.016" layer="22" rot="MR0">&gt;5s</text>
+<circle x="1.8034" y="40.2082" radius="0.091578125" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="pinhead">
@@ -6981,11 +6982,11 @@ design rules under a new name.</description>
 <wire x1="12.8016" y1="35.2044" x2="12.8176" y2="35.301" width="0.1524" layer="16"/>
 <wire x1="1.9812" y1="44.5008" x2="1.974715625" y2="44.58476875" width="0.1524" layer="16"/>
 <wire x1="8.0772" y1="24.5364" x2="8.382" y2="24.5364" width="0.1524" layer="1"/>
-<wire x1="1.9812" y1="30.6324" x2="3.4544" y2="29.1592" width="0.1524" layer="1"/>
+<wire x1="1.5748" y1="30.6578" x2="3.4544" y2="29.1592" width="0.1524" layer="1"/>
 <wire x1="3.4544" y1="29.1592" x2="8.0772" y2="24.5364" width="0.1524" layer="1"/>
-<wire x1="1.9812" y1="44.5008" x2="1.9812" y2="30.6324" width="0.1524" layer="1"/>
+<wire x1="1.5748" y1="44.5262" x2="1.5748" y2="30.6578" width="0.1524" layer="1"/>
 <wire x1="8.382" y1="24.5364" x2="8.4" y2="24.42" width="0.1524" layer="1"/>
-<wire x1="1.9812" y1="44.5008" x2="1.974715625" y2="44.58476875" width="0.1524" layer="1"/>
+<wire x1="1.5748" y1="44.5262" x2="1.974715625" y2="44.58476875" width="0.1524" layer="1"/>
 <wire x1="15.24" y1="32.004" x2="15.24" y2="31.0134" width="0.1524" layer="16"/>
 <wire x1="15.24" y1="31.0134" x2="15.0876" y2="30.861" width="0.1524" layer="16"/>
 <wire x1="15.0876" y1="30.861" x2="14.732" y2="30.861" width="0.1524" layer="16"/>
@@ -7155,6 +7156,20 @@ design rules under a new name.</description>
 <wire x1="8.60933125" y1="35.58413125" x2="8.5344" y2="35.5092" width="0.1524" layer="16"/>
 <wire x1="8.816340625" y1="35.31018125" x2="8.60933125" y2="35.31018125" width="0.1524" layer="16"/>
 <wire x1="8.60933125" y1="35.31018125" x2="8.60933125" y2="35.58413125" width="0.1524" layer="16"/>
+<contactref element="LED6" pad="4"/>
+<wire x1="2.91" y1="40.1371" x2="2.0625" y2="40.1371" width="0.1524" layer="1"/>
+<wire x1="2.0625" y1="40.1371" x2="1.9304" y2="40.005" width="0.1524" layer="1"/>
+<wire x1="1.9304" y1="40.005" x2="1.9304" y2="33.7312" width="0.1524" layer="1"/>
+<wire x1="1.9304" y1="33.7312" x2="3.048" y2="32.6136" width="0.1524" layer="1"/>
+<via x="3.048" y="32.6136" extent="1-16" drill="0.3"/>
+<wire x1="3.048" y1="32.6136" x2="3.048" y2="32.4866" width="0.1524" layer="16"/>
+<wire x1="3.048" y1="32.4866" x2="4.3942" y2="31.1404" width="0.1524" layer="16"/>
+<wire x1="4.3942" y1="31.1404" x2="4.5212" y2="31.1404" width="0.1524" layer="16"/>
+<wire x1="4.5212" y1="31.1404" x2="4.7498" y2="30.9118" width="0.1524" layer="16"/>
+<wire x1="4.7498" y1="30.9118" x2="6.5024" y2="30.9118" width="0.1524" layer="16"/>
+<wire x1="6.5024" y1="30.9118" x2="6.7564" y2="31.1658" width="0.1524" layer="16"/>
+<wire x1="6.7564" y1="31.1658" x2="9.6774" y2="31.1658" width="0.1524" layer="16"/>
+<wire x1="9.6774" y1="31.1658" x2="9.906" y2="31.3944" width="0.1524" layer="16"/>
 </signal>
 <signal name="RST">
 <contactref element="JP1" pad="7"/>

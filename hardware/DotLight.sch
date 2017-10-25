@@ -13074,6 +13074,11 @@ Source: RS Component / Phycomp</description>
 <wire x1="81.28" y1="231.14" x2="83.82" y2="231.14" width="0.1524" layer="91"/>
 <label x="83.82" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<wire x1="182.88" y1="261.62" x2="182.88" y2="269.24" width="0.1524" layer="91"/>
+<label x="182.88" y="269.24" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LEDS" class="0">
 <segment>
