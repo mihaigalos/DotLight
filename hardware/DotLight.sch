@@ -12879,6 +12879,7 @@ Source: RS Component / Phycomp</description>
 <plain>
 <text x="114.3" y="124.46" size="1.27" layer="91">Emit</text>
 <text x="139.7" y="124.46" size="1.27" layer="91">Sense</text>
+<text x="58.42" y="289.56" size="5.08" layer="91">Warning! Design uses T84 instead of T85</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="93.98" y="134.62" rot="R90"/>
